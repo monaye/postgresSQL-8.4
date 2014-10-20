@@ -21,7 +21,7 @@ Creating a database at launch
 -----------------------------
 
 You can create a postgresql superuser at launch, by specifying 'POSTGRESQL_USER',
-'POSTGRESQL__PASS' and 'POSTGRESQL_DB' variables. For all the above variables,
+'POSTGRESQL_PASS' and 'POSTGRESQL_DB' variables. For all the above variables,
 a default value of 'docker' is used if not specified.
 
     docker run --name postgresql84 -d -p 5432:5432 \
