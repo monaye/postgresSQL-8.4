@@ -26,6 +26,8 @@ RUN mkdir -p /var/run/postgresql
 
 RUN chown -R postgres:postgres /var/run/postgresql/
 
+ENV TERM xterm
+
 VOLUME ["/var/lib/psql"]
 
 EXPOSE 5432
