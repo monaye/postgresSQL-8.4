@@ -1,7 +1,10 @@
 FROM centos:centos6
+
 MAINTAINER Ganesh Ravi "ganesh.reddy.22@gmail.com"
 
-RUN rpm -Uvh http://yum.pgrpms.org/reporpms/8.4/pgdg-centos-8.4-2.noarch.rpm
+ADD /pgdg-centos-8.4-3.noarch.rpm /pgdg-centos-8.4-3.noarch.rpm
+
+RUN rpm -i pgdg-centos-8.4-3.noarch.rpm
 
 RUN yum -y install postgresql84-server postgresql84-contrib postgresql84
 
