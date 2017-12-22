@@ -1,6 +1,10 @@
 dockerfiles-centos-postrgresql
 =============================
 
+This is the fork version from https://bitbucket.org/GaneshRavi/docker_ganeshravi_postgresql 
+
+Original script download 8.4 version from PostgreSQL Yum Repository and it's no loger provided, downloaed rpm file is inlcuded in this repo and docker installatin scrip is changed based on that. 
+
 CentOS 6 dockerfile for PostgreSQL 8.4
 
 Setup
